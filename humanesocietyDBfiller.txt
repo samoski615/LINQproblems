@@ -1,0 +1,118 @@
+INSERT INTO Categories (Name)
+VALUES('Dog')
+
+INSERT INTO Categories (Name)
+VALUES('Cat')
+
+INSERT INTO Categories (Name)
+VALUES('Hamster')
+
+INSERT INTO Categories (Name)
+VALUES('Rabbit')
+
+INSERT INTO Categories (Name)
+VALUES('Bird')
+
+
+
+INSERT INTO DietPlans(Name, FoodType, FoodAmountInCups)
+VALUES ('standard', 'dry', 2)
+
+INSERT INTO DietPlans(Name, FoodType, FoodAmountInCups)
+VALUES ('restricted', 'dry', 1)
+
+INSERT INTO DietPlans(Name, FoodType, FoodAmountInCups)
+VALUES ('malnourished', 'moist', 1)
+
+INSERT INTO DietPlans(Name, FoodType, FoodAmountInCups)
+VALUES ('whole grain', 'dry', 1)
+
+INSERT INTO DietPlans(Name, FoodType, FoodAmountInCups)
+VALUES ('vegetarian', 'moist', 1)
+
+
+
+INSERT INTO Animals (Name, Weight, Age, Demeanor, KidFriendly, PetFriendly, Gender, AdoptionStatus)
+VALUES ('Scruffy', 52, 3, 'Energetic', 1, 0, 'male', 'available')
+
+INSERT INTO Animals (Name, Weight, Age, Demeanor, KidFriendly, PetFriendly, Gender, AdoptionStatus)
+VALUES ('Snowball', 3, 1, 'Timid', 1, 0, 'male', 'available')
+
+INSERT INTO Animals (Name, Weight, Age, Demeanor, KidFriendly, PetFriendly, Gender, AdoptionStatus)
+VALUES ('Whiskers', 14, 7, 'Playful', 1, 1, 'male', 'not available')
+
+INSERT INTO Animals (Name, Weight, Age, Demeanor, KidFriendly, PetFriendly, Gender, AdoptionStatus)
+VALUES ('Larry Byrd', 1, 1, 'Flighty', 0, 0, 'male', 'not available')
+
+INSERT INTO Animals (Name, Weight, Age, Demeanor, KidFriendly, PetFriendly, Gender, AdoptionStatus)
+VALUES ('Cuddles', 1, 2, 'Nervous', 1, 0, 'female', 'available')
+
+
+
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (101)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (102)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (103)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (104)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (105)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (106)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (107)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (108)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (109)
+
+INSERT INTO Rooms (RoomNumber)
+VALUES (110)
+
+
+
+INSERT INTO Employees (FirstName, LastName, UserName, Password, EmployeeNumber, Email)
+VALUES ('Donnie', 'Wahlberg', 'DWahlberg', 'password1', 78987, 'donnie.wahlberg@mail.com')
+
+INSERT INTO Employees (FirstName, LastName, UserName, Password, EmployeeNumber, Email)
+VALUES ('Jordan', 'Knight', 'JKnight', 'password2', 64758, 'j.knight@mail.com')
+
+INSERT INTO Employees (FirstName, LastName, UserName, Password, EmployeeNumber, Email)
+VALUES ('Joey', 'McIntyre', 'JMcIntyre', 'password3', 56478, 'j.mcintyre@mail.com')
+
+INSERT INTO Employees (FirstName, LastName, UserName, Password, EmployeeNumber, Email)
+VALUES ('Jonathan', 'Knight', 'Jknight', 'password4', 39294, 'jon.knight@mail.com')
+
+INSERT INTO Employees (FirstName, LastName, UserName, Password, EmployeeNumber, Email)
+VALUES ('Danny', 'Wood', 'DWood', 'password5', 92345, 'd.wood@mail.com')
+
+
+
+INSERT INTO Clients (FirstName, LastName, UserName, Password, Email)
+VALUES ('Harry', 'Potter', 'HPotter', 'immaw1zard', 'thewiz@mail.com')
+
+INSERT INTO Clients (FirstName, LastName, UserName, Password, Email)
+VALUES ('Hermione', 'Granger', 'HGranger', 'grrlwiz', 'h.granger@mail.com')
+
+INSERT INTO Clients (FirstName, LastName, UserName, Password, Email)
+VALUES ('Ron', 'Weasley', 'RWeasley', 'luvHermione', 'r.weasley@mail.com')
+
+INSERT INTO Clients (FirstName, LastName, UserName, Password, Email)
+VALUES ('Albus', 'Dumbledore', 'ADumbledore', 'theOGwiz', 'a.dumbledore@mail.com')
+
+INSERT INTO Clients (FirstName, LastName, UserName, Password, Email)
+VALUES ('Severus', 'Snape', 'theSnake', 'notHarryPotter', 's.snape@mail.com')
+
+
+
