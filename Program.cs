@@ -8,12 +8,14 @@ namespace linqproblems
 {
     class Program
     {
-        
-        //private static List<string> words = new List<string>() { "the", "bike", "this", "it", "tenth", "mathematics" };
 
         static void Main(string[] args)
         {
-            
+            Words words = new Words();
+
+
+            words.GetWordsWithTh();
+
 
         }
 
