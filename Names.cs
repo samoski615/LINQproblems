@@ -10,10 +10,12 @@ namespace linqproblems
     {
         public static List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
 
-        public void RemoveDuplicates(char mike)
+        public List<string> RemoveDuplicates()
         {
-            char m = mike;
-            var removeMike = names.Where(n => n.Distinct<char>(mike));
+            string isMike = "Mike";
+            var findMike = names.RemoveAll(n => n == isMike);
+            var newListNoMikes = names.ToList();
+            return newListNoMikes;
         }
 
     }

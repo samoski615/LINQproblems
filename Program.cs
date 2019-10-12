@@ -12,11 +12,12 @@ namespace linqproblems
         static void Main(string[] args)
         {
             Words words = new Words();
-
+            Names names = new Names();
+            Grades grades = new Grades();
 
             words.GetWordsWithTh();
-
-
+            names.RemoveDuplicates();
+            grades.GetAverage();
         }
 
        
