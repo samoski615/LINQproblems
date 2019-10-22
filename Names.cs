@@ -15,6 +15,8 @@ namespace linqproblems
             string isMike = "Mike";
             var findMike = names.RemoveAll(n => n == isMike);
             var newListNoMikes = names.ToList();
+            Console.WriteLine(newListNoMikes);
+            Console.ReadLine();
             return newListNoMikes;
         }
 

@@ -14,6 +14,8 @@ namespace linqproblems
         {
             string th = "th";
             var findWords = words.Where(w => w.Contains(th)).ToList();
+            Console.WriteLine(findWords);
+            Console.ReadLine();
             return findWords;
         }  
     }

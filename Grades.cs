@@ -15,12 +15,22 @@ namespace linqproblems
             "73, 88, 83, 99, 64",
             "98, 100, 66, 74, 55"
         };
-
-
-        public void GetAverage()
+        public double GetAverage(List<string> gradeList)
         {
-            
+            List<double> newList = new List<double>();
+            double averageBaseline = 0.00;
+            for (int i = 0; i < gradeList.Count; i++)
+            {
+                List<double> numValue = gradeList[i].Split(',').Select(double.Parse).ToList();
+                newList = numValue.OrderByDescending(g => g).Take(numValue.Count() - 1).ToList();
+                double gradeAvg = newList.Average();
+
+                averageBaseline += gradeAvg;
+            }
+            double listOfAverages = averageBaseline / gradeList.Count;
+            Console.WriteLine(listOfAverages);
+            Console.ReadLine();
+            return listOfAverages;
         }
     }
-
 }
